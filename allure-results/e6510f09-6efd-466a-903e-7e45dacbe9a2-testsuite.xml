@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623135924001' stop='1623136008374'>
+    <name>loging to application</name>
+    <title>loging to application</title>
+    <test-cases>
+        <test-case start='1623135924002' status='failed' stop='1623136008362'>
+            <name>login by jason dat</name>
+            <title>login by jason dat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c2df9c9f-486b-45db-9937-0714a32bdc22-attachment.png' type='image/png' size='87445'/>
+                <attachment title='Screenshot' source='f5b3eba9-738c-45ce-84b0-5b8b8d9ffa89-attachment.png' type='image/png' size='99450'/>
+                <attachment title='Screenshot' source='a7d1963c-cb5a-4b0b-9932-571c12ead884-attachment.png' type='image/png' size='99448'/>
+                <attachment title='Screenshot' source='538cd38b-186b-476e-a632-81d9e585cb4e-attachment.png' type='image/png' size='99450'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`#ctl00_CPHContainer_lblOutput`) to have text
+                
+                Expected: "Userid or Password did Not Match !!$$$$$"
+                Received: "Userid or Password did Not Match !!"</message>
+                <stack-trace>Error: Expect $(`#ctl00_CPHContainer_lblOutput`) to have text
+                
+                Expected: "Userid or Password did Not Match !!$$$$$"
+                Received: "Userid or Password did Not Match !!"
+                    at login.validatingResultText (C:\Users\Pradeep\Desktop\demo_webdriverIO\test\pageobjects\loginPage.js:35:39)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.&lt;anonymous> (C:\Users\Pradeep\Desktop\demo_webdriverIO\test\specs\loginTest.js:16:8)
+                    at Context.executeAsync (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

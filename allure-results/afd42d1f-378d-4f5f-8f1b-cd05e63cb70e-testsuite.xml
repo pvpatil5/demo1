@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623147065087' stop='1623147106631'>
+    <name>first test suite</name>
+    <title>first test suite</title>
+    <test-cases>
+        <test-case start='1623147065088' status='failed' stop='1623147106607'>
+            <name>deals with webElements</name>
+            <title>deals with webElements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='47caed48-704d-4cb7-aa53-53ffdd754329-attachment.png' type='image/png' size='103782'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//a[text() = "Latest News"]`) to be displayed in viewport
+                
+                Expected: "displayed in viewport"
+                Received: "not displayed in viewport"</message>
+                <stack-trace>Error: Expect $(`//a[text() = "Latest News"]`) to be displayed in viewport
+                
+                Expected: "displayed in viewport"
+                Received: "not displayed in viewport"
+                    at Context.&lt;anonymous> (C:\Users\Pradeep\Desktop\demo_webdriverIO\test\specs\firstTest.js:28:28)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.executeAsync (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

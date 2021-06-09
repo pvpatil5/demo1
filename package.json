@@ -1,0 +1,25 @@
+{
+  "name": "demo_webdriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@rpii/wdio-html-reporter": "^7.0.0",
+    "@wdio/allure-reporter": "^7.7.3",
+    "@wdio/cli": "^7.7.2",
+    "@wdio/local-runner": "^7.7.2",
+    "@wdio/mocha-framework": "^7.7.2",
+    "@wdio/selenium-standalone-service": "^7.7.0",
+    "@wdio/spec-reporter": "^7.7.0",
+    "chai": "^4.3.4",
+    "source-map-support": "^0.5.19",
+    "xlsx": "^0.17.0"
+  }
+}

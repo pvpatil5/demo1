@@ -1,0 +1,97 @@
+{
+  "uid" : "169e586dc722fa8b",
+  "name" : "login",
+  "fullName" : "loging to application.login",
+  "historyId" : "5d6b950b3d3c692b7b10359b445bb20d",
+  "time" : {
+    "start" : 1622950205000,
+    "stop" : 1622950217120,
+    "duration" : 12120
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47abb8b99091a444",
+      "name" : "Screenshot",
+      "source" : "47abb8b99091a444.png",
+      "type" : "image/png",
+      "size" : 87590
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "loging to application"
+  }, {
+    "name" : "testClass",
+    "value" : "loging to application"
+  }, {
+    "name" : "testMethod",
+    "value" : "login"
+  }, {
+    "name" : "package",
+    "value" : "loging to application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-85.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "14a76faaa20b019f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622949502115,
+        "stop" : 1622949511671,
+        "duration" : 9556
+      }
+    }, {
+      "uid" : "955893bbaf95caaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622949198072,
+        "stop" : 1622949206608,
+        "duration" : 8536
+      }
+    }, {
+      "uid" : "cbc190cde471e2fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622948925574,
+        "stop" : 1622948935885,
+        "duration" : 10311
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "169e586dc722fa8b.json",
+  "parameterValues" : [ "firefox-85.0" ]
+}

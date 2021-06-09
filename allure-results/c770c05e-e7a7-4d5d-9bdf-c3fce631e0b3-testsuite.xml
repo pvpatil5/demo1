@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623147806869' stop='1623147866941'>
+    <name>element methods</name>
+    <title>element methods</title>
+    <test-cases>
+        <test-case start='1623147806870' status='broken' stop='1623147866933'>
+            <name>mouseHover action</name>
+            <title>mouseHover action</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "element methods mouseHover action" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Pradeep\Desktop\demo_webdriverIO\test\specs\sample.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "element methods mouseHover action" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Pradeep\Desktop\demo_webdriverIO\test\specs\sample.js)
+                    at createTimeoutError (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

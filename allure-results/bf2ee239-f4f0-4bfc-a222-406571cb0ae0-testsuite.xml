@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623147065552' stop='1623147066037'>
+    <name>demonstrartin of mocha outersuite: demonstrartin of mocha innersuite</name>
+    <title>demonstrartin of mocha outersuite: demonstrartin of mocha innersuite</title>
+    <test-cases>
+        <test-case start='1623147065553' status='passed' stop='1623147066036'>
+            <name>test case3</name>
+            <title>test case3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='54454cc5-38bc-43a2-8d63-ea7619a6a387-attachment.png' type='image/png' size='6551'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

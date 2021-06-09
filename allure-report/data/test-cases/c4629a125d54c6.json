@@ -1,0 +1,105 @@
+{
+  "uid" : "c4629a125d54c6",
+  "name" : "login",
+  "fullName" : "loging to application.login",
+  "historyId" : "7822bb1c7d3cc33e77c895f2c5f2a0c3",
+  "time" : {
+    "start" : 1622950197503,
+    "stop" : 1622950211881,
+    "duration" : 14378
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "438333f322471e4b",
+      "name" : "Screenshot",
+      "source" : "438333f322471e4b.png",
+      "type" : "image/png",
+      "size" : 99446
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "loging to application"
+  }, {
+    "name" : "testClass",
+    "value" : "loging to application"
+  }, {
+    "name" : "testMethod",
+    "value" : "login"
+  }, {
+    "name" : "package",
+    "value" : "loging to application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e172a0f58f0b1e38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622949741194,
+        "stop" : 1622949751441,
+        "duration" : 10247
+      }
+    }, {
+      "uid" : "a39bb4c8b4cf14fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622947776606,
+        "stop" : 1622947785495,
+        "duration" : 8889
+      }
+    }, {
+      "uid" : "428f793d5b95640b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622947420223,
+        "stop" : 1622947429976,
+        "duration" : 9753
+      }
+    }, {
+      "uid" : "8ddee87144627d6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622898208957,
+        "stop" : 1622898219648,
+        "duration" : 10691
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4629a125d54c6.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "955893bbaf95caaa",
+  "name" : "login",
+  "fullName" : "loging to application.login",
+  "historyId" : "5d6b950b3d3c692b7b10359b445bb20d",
+  "time" : {
+    "start" : 1622949198072,
+    "stop" : 1622949206608,
+    "duration" : 8536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a9bac43cbab74f",
+      "name" : "Screenshot",
+      "source" : "9a9bac43cbab74f.png",
+      "type" : "image/png",
+      "size" : 87590
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "loging to application"
+  }, {
+    "name" : "testClass",
+    "value" : "loging to application"
+  }, {
+    "name" : "testMethod",
+    "value" : "login"
+  }, {
+    "name" : "package",
+    "value" : "loging to application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-85.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "955893bbaf95caaa.json",
+  "parameterValues" : [ "firefox-85.0" ]
+}

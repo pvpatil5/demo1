@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623137344924' stop='1623137376634'>
+    <name>loging to application</name>
+    <title>loging to application</title>
+    <test-cases>
+        <test-case start='1623137344925' status='failed' stop='1623137376628'>
+            <name>login by excel adat</name>
+            <title>login by excel adat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4a22115a-8ef7-4762-a549-6e8f66fcd199-attachment.png' type='image/png' size='99447'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`#ctl00_CPHContainer_lblOutput`) to have text
+                
+                Expected: "Userid or Password did Not Match !!$$$$$"
+                Received: "Userid or Password did Not Match !!"</message>
+                <stack-trace>Error: Expect $(`#ctl00_CPHContainer_lblOutput`) to have text
+                
+                Expected: "Userid or Password did Not Match !!$$$$$"
+                Received: "Userid or Password did Not Match !!"
+                    at login.validatingResultText (C:\Users\Pradeep\Desktop\demo_webdriverIO\test\pageobjects\loginPage.js:35:45)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.&lt;anonymous> (C:\Users\Pradeep\Desktop\demo_webdriverIO\test\specs\loginTest.js:24:9)
+                    at Context.executeAsync (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

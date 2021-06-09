@@ -1,0 +1,34 @@
+webdriverIO : 
+	is a wrapper written on top of webdriverJS (it is a javascript binding for selenium) 
+	and webdriverIO is developed by nodeJS(is a framework of javascript, used for server side programming)
+
+why we need webdriverIO:
+	1] it has various features(functionalities) that overcomes the drawbacks of webdriverJs
+	2] we can run over scripts in synchronus as well as asynchronus way
+	3] it internally take care of resolving promises
+	4] it has a testrunner so that we can use the testrunner to run our scripts
+		testrunner features 
+				1] we can achive cross browser testing
+				2] we can create Test suites and run the test suites
+				3] we can retry the failed test cases
+				4] we can make use of frameworks (mocha, jasmine) to maintain our test scripts
+
+Installation:
+	1] craete a separate directory in your pc
+	2] open you directory in vs code 
+	3] open your terminal
+	4] type a command npm init -y and hit enter 
+	5] type a command npm install @wdio/cli and hit enter
+	6] type a command npx wdio config hit enter  and select you configurations
+
+
+
+
+
+
+
+
+
+
+
+				

@@ -1,0 +1,55 @@
+{
+  "uid" : "cbc190cde471e2fa",
+  "name" : "login",
+  "fullName" : "loging to application.login",
+  "historyId" : "5d6b950b3d3c692b7b10359b445bb20d",
+  "time" : {
+    "start" : 1622948925574,
+    "stop" : 1622948935885,
+    "duration" : 10311
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "loging to application"
+  }, {
+    "name" : "testClass",
+    "value" : "loging to application"
+  }, {
+    "name" : "testMethod",
+    "value" : "login"
+  }, {
+    "name" : "package",
+    "value" : "loging to application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-85.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbc190cde471e2fa.json",
+  "parameterValues" : [ "firefox-85.0" ]
+}

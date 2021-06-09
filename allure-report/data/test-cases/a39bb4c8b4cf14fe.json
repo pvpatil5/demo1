@@ -1,0 +1,55 @@
+{
+  "uid" : "a39bb4c8b4cf14fe",
+  "name" : "login",
+  "fullName" : "loging to application.login",
+  "historyId" : "7822bb1c7d3cc33e77c895f2c5f2a0c3",
+  "time" : {
+    "start" : 1622947776606,
+    "stop" : 1622947785495,
+    "duration" : 8889
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "loging to application"
+  }, {
+    "name" : "testClass",
+    "value" : "loging to application"
+  }, {
+    "name" : "testMethod",
+    "value" : "login"
+  }, {
+    "name" : "package",
+    "value" : "loging to application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a39bb4c8b4cf14fe.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

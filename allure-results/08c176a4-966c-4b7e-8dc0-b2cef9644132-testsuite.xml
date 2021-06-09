@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622950197502' stop='1622950211890'>
+    <name>loging to application</name>
+    <title>loging to application</title>
+    <test-cases>
+        <test-case start='1622950197503' status='passed' stop='1622950211881'>
+            <name>login</name>
+            <title>login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2276fd46-440c-4527-92d2-1e897da104ce-attachment.png' type='image/png' size='99446'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

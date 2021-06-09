@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623148641491' stop='1623148659949'>
+    <name>loging to application</name>
+    <title>loging to application</title>
+    <test-cases>
+        <test-case start='1623148641492' status='passed' stop='1623148659940'>
+            <name>login by jason dat</name>
+            <title>login by jason dat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bb3e4ab5-b477-4854-a8e2-9f2debccf42b-attachment.png' type='image/png' size='99450'/>
+            </attachments>
+        </test-case>
+        <test-case start='1623148659944' status='pending' stop='1623148659944'>
+            <name>login by excel adat</name>
+            <title>login by excel adat</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

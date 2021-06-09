@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623134809075' stop='1623134833849'>
+    <name>loging to application</name>
+    <title>loging to application</title>
+    <test-cases>
+        <test-case start='1623134809076' status='pending' stop='1623134809076'>
+            <name>login by jason dat</name>
+            <title>login by jason dat</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623134809077' status='broken' stop='1623134833845'>
+            <name>login by excel adat</name>
+            <title>login by excel adat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='48253864-3765-45a6-ac4c-ad16cf783352-attachment.png' type='image/png' size='36530'/>
+            </attachments>
+            <failure>
+                <message>unknown error: net::ERR_CONNECTION_REFUSED
+                  (Session info: chrome=91.0.4472.77)</message>
+                <stack-trace>unknown error: unknown error: net::ERR_CONNECTION_REFUSED
+                  (Session info: chrome=91.0.4472.77)
+                    at Object.getErrorFromResponseBody (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Browser.wrapCommandFn (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Browser.wrapCommandFn (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at login.navigateTOUrl (C:\Users\Pradeep\Desktop\demo_webdriverIO\test\pageobjects\basePage.js:4:9)
+                    at Context.&lt;anonymous> (C:\Users\Pradeep\Desktop\demo_webdriverIO\test\specs\loginTest.js:17:9)
+                    at Context.executeAsync (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Pradeep\Desktop\demo_webdriverIO\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
